@@ -15,11 +15,11 @@ class GuessingGame {
     }
 
     lower() {
-
+        this.max = this.guess();    
     }
 
     greater() {
-
+    
     }
 }
 
