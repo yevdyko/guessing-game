@@ -19,7 +19,7 @@ class GuessingGame {
     }
 
     greater() {
-    
+        this.min = this.guess();
     }
 }
 
