@@ -10,8 +10,7 @@ class GuessingGame {
     }
 
     guess() {
-        let median = Math.round((this.min + this.max) / 2);
-        return median;
+        return Math.round((this.min + this.max) / 2);
     }
 
     lower() {
